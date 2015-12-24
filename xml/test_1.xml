@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ul >
+   <type>War, Thriller</type>
+   <format>DVD</format>
+   <year>2003</year>
+   <rating>PG</rating>
+   <stars>10</stars>
+   <description>Talk about a US-Japan war</description>
+   <ul id="foo">
+     <type>War, Thriller</type>
+     <format>DVD</format>
+     <year>2003</year>
+     <rating>PG</rating>
+     <stars>10</stars>
+     <description>Talk about a US-Japan war</description>
+  </ul>
+
+  <ded>
+    <ul id="foo">
+       <type>War, Thriller</type>
+       <format>DVD</format>
+       <year>2003</year>
+       <rating>PG</rating>
+       <stars>10</stars>
+       <description>Talk about a US-Japan war</description>
+       <pet>
+        <name>Hello</name>
+       </pet>
+    </ul>
+    <ul id="foo">
+      <ul id="foo">
+        <year>2003</year>
+      </ul>
+    </ul>
+  </ded>
+</ul>
