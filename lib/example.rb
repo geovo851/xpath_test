@@ -1,6 +1,6 @@
 require 'rexml/document'
 
-f = File.open("xml/test.xml")
+f = File.open("../xml/test.xml")
 xmldoc = REXML::Document.new(f)
 
 # Info for the first movie found

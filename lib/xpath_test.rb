@@ -1,7 +1,7 @@
 require 'xpath'
 require 'rexml/document'
 
-f = File.open("xml/test_1.xml")
+f = File.open("../xml/test_1.xml")
 xmldoc = REXML::Document.new(f)
 
 i = 0
